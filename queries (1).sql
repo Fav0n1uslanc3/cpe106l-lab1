@@ -1,0 +1,14 @@
+
+-- create
+CREATE TABLE MENU (
+  Food varchar(255) PRIMARY KEY,
+  Price INTEGER NOT NULL
+);
+
+-- insert
+INSERT INTO MENU VALUES ('BBQ', 200);
+INSERT INTO MENU VALUES ('Shrimp', 350);
+
+-- fetch 
+SELECT * FROM MENU WHERE Food = 'SISIG';
+
